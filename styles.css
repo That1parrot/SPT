@@ -1,0 +1,180 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f2125;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #f1c40f;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #f1c40f;
+    text-align: center;
+}
+
+/* Progress Bar */
+.progress-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#progress-bar {
+    width: 80%;
+    height: 20px;
+}
+
+#progress-text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Surah Grid */
+.surah-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 10px;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Surah Box */
+.surah-box {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.surah-box:hover {
+    background-color: #34495e;
+}
+
+.surah-box h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.surah-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* Responsive for Mobile */
+@media screen and (max-width: 768px) {
+    .surah-container {
+        display: block;
+    }
+    .column {
+        display: block;
+    }
+}
+
+/* Verse Section */
+#verses-container {
+    background-color: #272f33;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#ayah-list {
+    margin-top: 20px;
+}
+
+.ayah-item {
+    margin-bottom: 15px;
+}
+
+.ayah-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* General Button Styling */
+/* General Button Styling */
+
+
+
+
+
+.done-button {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.done-button:hover {
+    background-color: #e1b500;
+    color: #ffffff;
+}
+
+/* Play Button */
+.play-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.play-button:hover {
+    background-color: #2980b9;
+}
+
+/* Reset Button */
+.reset-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-button:hover {
+    background-color: #c0392b;
+}
+

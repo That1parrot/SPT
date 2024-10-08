@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Progress Tracker</title>
+    
+    <!-- Link to favicon -->
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Surah Progress Tracker</h1>
+        <button class="reset-button" onclick="resetProgress()">Reset Progress</button>
+    </header>
+    
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <p id="progress-text">Complete 0% - 0/114</p>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for a Surah..." onkeyup="filterSurahs()">
+    </div>
+
+    <!-- Surah Grid Container -->
+    <div class="surah-container">
+        <div class="column" id="column-1"></div>
+        <div class="column" id="column-2"></div>
+        <div class="column" id="column-3"></div>
+    </div>
+
+    <!-- Verses Container (where verses are displayed) -->
+    <section id="verses-container">
+        <h2>Surah Verses</h2>
+        <div id="ayah-list"></div> <!-- Verse list will be displayed here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
