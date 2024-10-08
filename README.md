@@ -1,5 +1,5 @@
 ## Demo:
-[Click here to access the live demo](https://that1parrot.github.io/SurahProgressTracker/).
+[Click here to access the live demo](https://that1parrot.github.io/SPT/).
 
 # Surah Progress Tracker (SPT)
 
